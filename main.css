@@ -61,11 +61,11 @@ header {
 }
 
 li {
-    margin: 0.2rem;
+    margin: 0 2rem;
 }
 
 .nav-link {
-    font-family: 'The Historia Demo', sans-serif;
+    font-family: 'Arial', sans-serif;
     font-size: 5rem;
     padding: 1rem;
 }
@@ -109,7 +109,7 @@ li {
     border: .8rem;
 }
 
-.bar-half {
+.bar.half {
     width: 50%;
 }
 
