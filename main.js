@@ -4,8 +4,10 @@ $(document).ready(function() {
         $('.top-nav').toggleClass('open');
     });
 
-    $('.nav-link').on('click', function() {
+    $('.top-nav .nav-link').on('click', function() {
         $('.menu-toggler').removeClass('open');
         $('.top-nav').removeClass('open');
     });
+
+    
 });
