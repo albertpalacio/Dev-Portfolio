@@ -1,4 +1,13 @@
 /* Start Global */
+
+@font-face {
+    font-family: 'The Historia Demo';
+    src: url('fonts/thehistoriademo-webfont.woff2') format('woff2'),
+         url('fonts/thehistoriademo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
 *{
     margin: 0;
     padding: 0;
@@ -30,16 +39,7 @@ p {
 
 img { 
     width: 100%;
-}
-
-@font-face {
-    font-family: 'The Historia Demo';
-    src: url('fonts/thehistoriademo-webfont.woff2') format('woff2'),
-         url('fonts/thehistoriademo-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-  }
-  
+}  
   
 
 /* End Global */
@@ -163,31 +163,71 @@ li {
     background: linear-gradient(to top, #ffe838, #fd57bf);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    padding: 1rem;
     
 }
 
 /* End Header */
 
 /*Start about*/
+
+.about .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-heading {
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 0;
+    /* margin-top: 4rem; */
+    margin-bottom: 6rem;
+}
+
+.about-heading h1 {
+    font-size: 10rem;
+    opacity: .3;
+}
+
+.about-heading h6 {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
 /*End about*/
 
 /*Start services*/
+
+
 /*End services*/
 
 /*Start portfolio*/
+
+
 /*End services*/
 
 /*Start timeline*/
+
+
 /*End timeline*/
 
 /*Start contact*/
+
+
 /*End contact*/
 
 /*Start footer*/
+
+
 /*End footer*/
 
 /*Start animations*/
+
+
 /*End animations*/
 
 /*Start media queries*/
+
+
 /*End media queries*/
