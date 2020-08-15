@@ -214,7 +214,7 @@ li {
 }
 
 .landing-text h1 {
-  font-size: 20rem;
+  font-size: 16rem;
   font-family: "The Historia Demo", sans-serif;
   background: linear-gradient(to top, #a113ff, #ffd000);
   -webkit-background-clip: text;
@@ -364,16 +364,19 @@ li {
 .portfolio-description .cta {
   display: inline-block;
   margin-top: 2.5rem;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   text-transform: uppercase;
   color: white;
   transition: color 650ms;
 }
 
-.portfolio-description .cta:hover .cta:active {
+.portfolio-description .cta:hover {
+  color: cyan;
+  text-decoration: underline;
+}
+.portfolio-description .cta:active {
   color: cyan;
 }
-
 /*End services*/
 
 /*Start timeline*/
@@ -532,7 +535,7 @@ input[type="submit"]:hover {
     background-size: cover;
   }
   .landing-text h1 {
-    font-size: 15rem;
+    font-size: 12rem;
   }
   .landing-text h6 {
     font-size: 1.7rem;
@@ -540,6 +543,14 @@ input[type="submit"]:hover {
   .nav-list {
     flex-direction: column;
   }
+  .about .container {
+    flex-direction: column;
+  }
+
+  .profile-img {
+    margin: 0 0 7rem 0;
+  }
+
   li {
     margin: 2rem 0;
   }
@@ -582,7 +593,7 @@ input[type="submit"]:hover {
     right: 2rem;
   }
   .landing-text h1 {
-    font-size: 6rem;
+    font-size: 10rem;
   }
   .landing-text h6 {
     font-size: 1.4rem;
